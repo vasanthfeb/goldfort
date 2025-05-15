@@ -1,3 +1,8 @@
+<?php
+$current_page=basename($_SERVER['PHP_SELF']);
+?>
+
+
 <header>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark p-4">
        <div class="container">
@@ -6,9 +11,9 @@
 
         <div class="collapse navbar-collapse" id="nav_id">
             <ul class="navbar-nav ms-auto gap-lg-3">
-                <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">About Us</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Products</a></li>
+                <li class="nav-item"><a href="index.php" class="nav-link <?php echo ($current_page == 'index.php') ?'active':'' ?>">Home</a></li>
+                <li class="nav-item"><a href="about.php" class="nav-link <?php echo ($current_page == 'about.php')?'active':'' ?>">About Us</a></li>
+                <li class="nav-item"><a href="products.php" class="nav-link <?php echo ($current_page =="products.php") ? 'active':'' ?>">Products</a></li>
                 <li class="nav-item"><a href="#" class="nav-link">Premium Products</a></li>
                 <li class="nav-item"><a href="#" class="nav-link">Contact Us</a></li>
             </ul>
