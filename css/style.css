@@ -3,3 +3,24 @@
     font-weight: bold;
     border-bottom: 2px solid gold; /* optional style */
 }
+      .alert_div{
+    justify-content: center !important;
+    align-items: center !important;
+    height: 100vh !important;
+    display: flex !important;
+    
+}
+.alert_box_width{
+    width: 400px !important;
+}
+.form-control{
+    border: none;
+    background-color: transparent !important;
+    border-bottom: 1px solid red !important;
+    border-radius: 0px !important;
+}
+.form-control:focus{
+    box-shadow: none !important;
+    border: none !important;
+     border-bottom: 1px solid red !important;
+}
