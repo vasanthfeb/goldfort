@@ -16,7 +16,9 @@ require_once $_SERVER['DOCUMENT_ROOT']."/goldfort/libs/load.php";
     ?>
   </header>
     <main>
-        
+          <?php
+        load_template('_premium_product_login');
+        ?>
     </main>
     
 

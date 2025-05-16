@@ -25,7 +25,7 @@
 
 
 
-<button class="btn btn-danger" type="toggle" data-bs-target="#premium_modal" data-bs-toggle="modal">hey</button>
+
 
 <?php
 load_template('_footer_links');
