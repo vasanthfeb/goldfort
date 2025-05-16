@@ -15,7 +15,7 @@ $current_page=basename($_SERVER['PHP_SELF']);
                 <li class="nav-item"><a href="about.php" class="nav-link <?php echo ($current_page == 'about.php')?'active':'' ?>">About Us</a></li>
                 <li class="nav-item"><a href="products.php" class="nav-link <?php echo ($current_page =="products.php") ? 'active':'' ?>">Products</a></li>
                 <li class="nav-item"><a href="#" class="nav-link">Premium Products</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Contact Us</a></li>
+                <li class="nav-item"><a href="contact.php" class="nav-link <?php echo ($current_page == "contact.php")?'active':''?>">Contact Us</a></li>
             </ul>
         </div>
        </div>
